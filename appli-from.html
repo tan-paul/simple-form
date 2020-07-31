@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            application-from
+        </title>
+    </head>
+    <body>
+        <form name="textDataEntry" action="thanks.html" method="GET">
+            <h1 align="center">APPLICATION FORM</h1>
+            <br>
+            <pre><font size="5"><b>First Name</b>                         <b>Middle Name</b>                            <b>Last Name</b></front></pre>
+            <pre><input type="text" name="txtFirstName" id="txtFirstName" placeholder="Enter First Name" maxlength="14" required>                   <input type="text" name="txtMiddleName" id="txtMiddleName" placeholder="Enter Middle Name" maxlength="14" required>                       <input name="txtLastName" id="txtLastName" placeholder="Enter Last Name" maxlength="14" required/></pre>
+            <p><font size="4"><b>Mobile No.</b></font></p><input type="text" name="txtMobileNo" id="txtMobileNo" placeholder="Enter Mobile Number" required>
+            <p><font size="4"><b>Email</b></font></p><input type="text" name="txtEmail" id="txtEmail" placeholder="Enter Email Address" required>
+            <p><font size="4"><b>DOB</b></font></p><input type="date" name="dtDob" id="dtDob" required>
+            <pre><font size="5"><b>Present Address</b></font>               <font size="5"><b>Permanent Address</b></font></pre>
+            <pre><textarea name="txtAddress" id="txtPrmAddress" cols="0" rows="0" wrap="physical" required></textarea>               <textarea name="txtPrsAddress" id="txtAddress" cols="0" rows="0" wrap="physical" required></textarea></pre>
+            <p><font><b>Sex</b></font></p>
+            <input type="radio" name="rdbSex" id="rdbSex" value="m" checked/><font size="4">male</font>
+            <input type="radio" name="rdbSex" value="f"/><font size="4">female</font>
+            <input type="radio" name="rdbSex" value="o"/><font size="4">other</font><br><br>
+            <pre><font size="5"><b>Qualification</b></font>           <font size="5"><b>Stream</b></font>                             <font size="5"><b>Year</b></font></pre>
+            <pre><select name="slctQualif">
+                <option value="u">UG</option>
+                <option value="p">PG</option>
+                <option value="d">Phd</option>
+            </select>                   <select name="slctStrm">                                        
+                                            <option value="e">Electonics Communication</option>
+                                            <option value="c">Computer Science</option>
+                                            <option value="ee">Electrical</option>
+                                            <option value="i">Information Technology</option>
+                                    </select>                   <input type="month" name="mnthYear" id="mnthYear" required></pre>
+            <p><font size="5"><b>Skill</b></font></p><select multiple>
+                <option value="c">C</option>
+                <option value="j">Java</option>
+                <option value="p">Python</option>
+                <option value="A">Assembly</option>
+                <option value="CPP">C++</option>
+                <option value="co">Cobol</option>
+                <option value="Pe">Perl</option>
+                <option value="R">R</option>
+                <option value="Ru">Ruby</option>
+            </select>
+            <p><font size="4"><strong>Terms&Conditions:</strong></font></p>
+            <p align="justify"><font size="2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nulla temporibus laboriosam hic provident itaque veniam voluptates, enim illum. At maiores dolores, repudiandae odit sint pariatur suscipit debitis quisquam nemo.</font></p>
+            <p align="center"><input type="checkbox" name="chkTermCond" value="T" required/>I Agree</p>
+            <pre>                                                     <input type="image" src="d.jpg"></pre>
+            <p align="right"><input type="reset" value="Reset"></p>
+        </form>
+    </body>
+</html>
